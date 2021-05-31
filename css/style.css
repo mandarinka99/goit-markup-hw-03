@@ -241,11 +241,9 @@ img {
   font-weight: 500;
 }
 
-.worker-foto {
-  margin-bottom: 30px;
-}
-.workers-position {
-  margin-bottom: 30px;
+.card-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .workers-title,
@@ -260,8 +258,7 @@ img {
 .filter {
   display: flex;
   justify-content: center;
-  padding-bottom: 16px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .filter-but + .filter-but {
@@ -341,13 +338,11 @@ img {
 
 /* footer */
 .footer {
-  background-color: var(--secondary-background-color);
-  color: var(--primary-white-color);
-}
-
-.footer > .container {
   padding-top: 60px;
   padding-bottom: 60px;
+
+  background-color: var(--secondary-background-color);
+  color: var(--primary-white-color);
 }
 
 .footer .logo {
